@@ -1,7 +1,8 @@
 import React from 'react';
+import Register from './Register';
 
 function Register() {
-  return <h2>Register</h2>;
+  return <Register/>;
 }
 
 export default Register;

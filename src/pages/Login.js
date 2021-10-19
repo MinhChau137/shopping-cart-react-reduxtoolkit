@@ -1,7 +1,8 @@
 import React from 'react';
+import Login from './Login';
 
 function Login() {
-  return <div>Login</div>;
+  return <Login/>;
 }
 
 export default Login;
