@@ -8,9 +8,9 @@ body{
   width: 420px;
   padding: 40px;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-60%, -50%);
   background-color: #191919;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;;
@@ -51,8 +51,12 @@ body{
 .register-form label.check{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .register-form label.check input[type = "checkbox"]{
   width: 20px;
-  margin: 10px 10px 10px 0;
+  margin: 10px 10px;
+}
+.register-form label.check p{
+  margin-bottom: 0;
 }

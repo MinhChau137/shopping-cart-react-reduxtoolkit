@@ -1,8 +1,17 @@
 import React from 'react';
-import Navbar from '../components/Navbar/Navbar';
+import ProductCard from '../components/ProductCard';
+import Products from '../Data';
+import "../styles/Home.css"
 
 const Home = () => {
-  return <div></div>;
+  return (
+    <div className="container product-list">
+      <div className="row">
+        {!!Products &&
+          Products.map((product, index) => <ProductCard product={product} key={index} />)}
+      </div>
+    </div>
+  );
 };
 
 export default Home;
